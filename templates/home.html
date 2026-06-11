@@ -1,0 +1,101 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Blog</title>
+
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <img src="{% static 'image/cricket.jpg' %}" alt="Cricket" class="hero-image">
+
+        <div class="hero-content">
+            <h1>Cricket: The Gentleman's Game</h1>
+            <p>
+                Cricket is more than just a sport. It is a passion shared by
+                millions of fans around the world.
+            </p>
+        </div>
+    </header>
+
+    <!-- Featured Article -->
+    <section class="featured">
+        <h2>Featured Story</h2>
+
+        <article class="card">
+            <h3>The Evolution of Cricket</h3>
+
+            <p>
+                Cricket began in England and has evolved into one of the most
+                watched sports globally. From Test matches to the fast-paced
+                T20 format, the game continues to attract millions of fans.
+            </p>
+        </article>
+    </section>
+
+    <!-- Blog Posts -->
+    <section class="posts">
+
+        <h2>Latest Articles</h2>
+
+        <article class="card">
+            <h3>Why Cricket Is So Popular</h3>
+
+            <p>
+                Cricket connects people through national pride, exciting
+                rivalries, and legendary performances.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>Greatest Cricket Players</h3>
+
+            <p>
+                Many players have left a lasting impact on the sport through
+                their skill, consistency, and leadership.
+            </p>
+        </article>
+
+        <article class="card">
+            <h3>The Rise of T20 Cricket</h3>
+
+            <p>
+                T20 cricket transformed the game by introducing shorter,
+                action-packed matches that appeal to modern audiences.
+            </p>
+        </article>
+
+    </section>
+
+    <!-- Sidebar Style Info -->
+    <section class="about">
+
+        <h2>About Cricket</h2>
+
+        <p>
+            Cricket is played between two teams of eleven players.
+            It combines strategy, teamwork, skill, and excitement.
+        </p>
+
+        <h3>Formats</h3>
+
+        <ul>
+            <li>Test Cricket</li>
+            <li>One Day International (ODI)</li>
+            <li>T20 International</li>
+            <li>Indian Premier League (IPL)</li>
+        </ul>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Cricket Blog</p>
+    </footer>
+
+</body>
+</html>
